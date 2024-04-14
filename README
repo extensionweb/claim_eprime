@@ -1,5 +1,14 @@
+I. Cài đặt
 - cài đặt: npm i
 - chạy: npm start
 - xuất file exe: 
     npm run win64
     vào thư mục dist sẽ thấy file đã đc xuất
+
+II. Sử dụng
+Bước 1: Chính file excel chứa acc cho đúng cấu trúc
+username password hour minute
+Bước 2: Load file excel
+Bước 3: Điền ID Steam nhận
+Bước 4: Chọn chế độ chạy. Có thể chọn ẩn hoặc hiện
+Bước 5: Click play màu xanh để chạy
