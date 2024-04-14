@@ -1,0 +1,21 @@
+{
+  "name": "claim_daily_coin",
+  "version": "1.0.0",
+  "description": "Claim daily coin CSGOEmpire",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "win64": "electron-packager . Claim_CSGOEmpire --out=dist/ --platform=win32 --arch=x64 --icon=icon.ico --overwrite"
+  },
+  "dependencies": {
+    "axios": "*",
+    "exceljs": "^4.4.0",
+    "google-auth-library": "^9.7.0",
+    "google-spreadsheet": "^4.1.1",
+    "moment": "^2.30.1",
+    "puppeteer": "^22.0.0"
+  },
+  "devDependencies": {
+    "electron": "*"
+  }
+}

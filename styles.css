@@ -1,0 +1,222 @@
+/* styles.css */
+@import "compass/css3";
+
+/* Add styles here to customize the appearance of your app */
+body {
+    background: linear-gradient(-45deg, #f4ddd6, #e3fbf6);
+	background-size: 400% 400%;
+	animation: gradient 90s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+button{
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.label_right{
+    float: right;
+    
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+#list_accounts_div{
+    position:absolute;
+    left: 30%;
+    border-width: 1px solid black;
+}
+#list_accounts{
+    margin-top: 5px;
+}
+
+.delete_member_button{
+    border:none;
+}
+.delete_member_button:hover{
+    border: 1px solid;
+}
+.username_label{
+    text-align: center;
+    min-width: 200px;
+}
+
+input{
+    background-color: transparent;
+}
+#table_members{
+    overflow:scroll;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border: 1px solid black;
+    position:absolute;
+}
+#table_members tr:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+#table_members_header{
+    color: rgb(22, 51, 84);
+    font-weight: bold;
+    margin-left: 300px;
+    border: 1px rgb(255, 255, 255); 
+    color:linear-gradient(-45deg, #e78e73, #da6b96, #cb97f7, #62cfb6);
+	border-style:dotted;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */    cursor:pointer;
+}
+#table_members_header:hover{
+    color:white;
+}
+#table_members_div{
+    width: 100%;
+    display: none;
+}
+#plus_member{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#add_member_command{
+    display: none;
+}
+#add_member{
+    background-color: #62cfb6;
+}
+#member_id{
+    border-radius: 5px;
+}
+
+.member_update{
+    text-align: center;
+    min-width: 100px;
+}
+.member_status{
+    text-align: center;
+    min-width: 100px;
+}
+
+.static_div{
+    text-align: center;
+
+}
+  ::-webkit-scrollbar {
+    width: 10px;
+    cursor:alias;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  #input_excel_label{
+    text-align: left;
+    cursor: pointer;
+  }
+  #input_excel_label:hover{
+    color:green;
+  }
+  .run_mode{
+    text-align: left;
+    width: 200px;
+  }
+  .playpause{
+    display: inline-block;
+    text-align: left;
+    margin: 5px 5px 5px 5px;
+  }
+  .playpause label {
+    text-align: left;
+    display: block;
+    box-sizing: border-box;
+    width: 0;
+    height: 30px;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 17px 0 17px 30px;
+    border-color: transparent transparent transparent greenyellow;
+  }
+  .playpause input[type=checkbox] {
+    position: absolute;
+    left: -9999px;
+  }
+  .playpause input[type=checkbox]:checked + label {
+    border-style: double;
+    border-width: 0px 0 0px 30px;
+    border-color: transparent transparent transparent red;
+  }
+  .playpause input[type=checkbox]:focus + label {
+    box-shadow: 0 0 5px lightblue;
+  }
+ 
+.controller{
+    display: inline-block;
+    vertical-align:top;
+}
+textarea{
+    background-color: transparent;
+}
+#receiver_id{
+    background-color: transparent;
+}
+#new_username{
+    width: 120px;
+    font-size: 15px;
+}
+#new_password{
+    width: 120px;
+    font-size:  15px;;
+}
+#new_from_date{
+    font-size: 15px;
+}
+#new_to_date{
+    font-size: 15px;
+}
+#steam_accounts{
+    overflow-x: scroll; 
+    height: 300px;
+}
+#steam_account{
+    margin: 2px 2px 2px 2px;
+    overflow: scroll;
+}
+#number_steam_accounts{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40%;
+    cursor: pointer;
+}
+#focus_current_account{
+    border: none;
+    background-color: transparent;
+}

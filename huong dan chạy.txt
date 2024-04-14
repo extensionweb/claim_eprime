@@ -1,0 +1,7 @@
+Bước 1: Chính file excel chứa acc cho đúng cấu trúc
+username password time
+username1 password1 hh:mm
+Bước 2: Load file excel
+Bước 3: Điền ID Steam nhận
+Bước 4: Chọn chế độ chạy. Có thể chọn ẩn hoặc hiện
+Bước 5: Click play màu xanh để chạy

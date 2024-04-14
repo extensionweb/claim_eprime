@@ -1,0 +1,5 @@
+- cài đặt: npm i
+- chạy: npm start
+- xuất file exe: 
+    npm run win64
+    vào thư mục dist sẽ thấy file đã đc xuất
