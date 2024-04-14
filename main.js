@@ -179,6 +179,4 @@ async function start(receiver_id, headless){
   let first_index = steam_accounts.get_first_index();
   run_account_recursive(first_index, receiver_id);
 }
-//caotuan Aa30121996 76561199580496936
-//emtraheo8818 Aa30121996! 76561199609109617
 
